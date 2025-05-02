@@ -1,12 +1,56 @@
-# React + Vite
+# 🍴 QuickFeast
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**QuickFeast** is a sleek and responsive food delivery web app where users can browse, search, filter, and add delicious dishes to their cart — all in real-time. Built with modern frontend technologies, QuickFeast offers a smooth and dynamic user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** – Component-based UI development
+- **Tailwind CSS** – Utility-first styling
+- **Redux** – State management for cart and filters
+- **React Context API** – Localized state sharing
+- **React Toastify** – Clean and customizable toast notifications
+- **React Icons** – For UI enhancements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+- 🔍 **Search Bar** – Instantly search for food items
+- 🍽 **Category Filters** – Filter foods by:
+  - Breakfast
+  - Soup
+  - Pasta
+  - Main Course
+  - Pizza
+  - Burger
+- 🛒 **Cart Functionality** – Add, remove, and manage your order
+- 🔔 **Real-Time Feedback** – Toast notifications on user actions
+- 💡 **Clean, Responsive UI** – Works beautifully on all devices
+
+---
+
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/THEJUSKRISHNAN/QuickFeast.git
+
+# Navigate into the project directory
+cd QuickFeast
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+
+```
+---
+## QuickFeast Preview
+![QuickFeast Preview](https://res.cloudinary.com/dgzkgmldz/image/upload/v1746197824/Screenshot_2025-05-02_202246_bljigb.png)
+
+---
